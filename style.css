@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+button {
+    margin: 2px;
+}
