@@ -15,16 +15,32 @@
 
     <h2>Add New Contact</h2>
 
-     <form>
+    <form>
 
-        <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <label for="id">ID Number:</label><br>
+        <input type="text" id="id" name="id"><br><br>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname"><br><br>
+
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
 
         <label for="phone">Phone Number:</label><br>
-        <input type="number" id="phone" name="phone" required><br><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
 
         <label for="department">Department:</label><br>
         <input type="text" id="department" name="department"><br><br>
@@ -32,8 +48,9 @@
         <label for="position">Position:</label><br>
         <input type="text" id="position" name="position"><br><br>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Add Employee</button>
 
     </form>
+
 </body>
 </html>
